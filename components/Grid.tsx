@@ -26,7 +26,6 @@ const Grid = () => {
       loop: true,
     });
 
-    // Cleanup function to destroy Typed instance when component unmounts
     return () => {
       typed.destroy();
     };
