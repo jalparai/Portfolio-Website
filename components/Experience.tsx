@@ -93,7 +93,7 @@ const Experience = () => {
                   {skillCategory.items.map((item, idx) => (
                     <div
                       key={idx}
-                      className="flex flex-col items-center p-3 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                      className="flex flex-col items-center p-3 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full sm:w-auto"
                     >
                       <Image
                         src={item.logo}

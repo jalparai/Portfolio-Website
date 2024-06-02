@@ -1,5 +1,3 @@
-"use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import Image from "next/image";
@@ -39,9 +37,9 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
-                  width={500}
-                  height={300}
+                  className="z-10 absolute bottom-0 w-full h-auto"
+                  layout="fill"
+                  objectFit="contain"
                 />
               </div>
 
@@ -128,8 +126,8 @@ const RecentProjects = () => {
           color: #ffffff;
         }
 
-        .iconlab{
-          width:23px !impotant
+        .iconlab {
+          width: 23px !important;
         }
       `}</style>
     </div>
