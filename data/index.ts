@@ -62,7 +62,7 @@ export const projects = [
       "/redu.png",
     ],
     link: "https://rai-ecommerce.netlify.app/ ",
-    toptext: "Ecommerce Website",
+    toptext: "Portfolio Website",
   },
 ];
 
