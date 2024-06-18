@@ -37,9 +37,9 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 w-full h-auto"
+                  className="z-10 absolute bottom-0 w-full h-auto imagepro rounded-lg"
                   layout="fill"
-                  objectFit="contain"
+                  objectFit="cover"
                 />
               </div>
 
@@ -129,6 +129,14 @@ const RecentProjects = () => {
         .iconlab {
           width: 23px !important;
         }
+        // .imagepro {
+        //   border-radius: 19px;
+        //   height: 129% !important;
+        //   width: 1518px !important;
+        //   object-fit: contain;
+        //   object-position: top;
+        //   border-bottom-right-radius: 97px;
+        // }
       `}</style>
     </div>
   );
